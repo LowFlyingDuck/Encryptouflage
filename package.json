@@ -1,0 +1,20 @@
+{
+  "name": "Encryption",
+  "version": "1.0.0",
+  "description": "This is a website, that can encrypt and decrypt messsages. (API Integration)",
+  "main": "encryptouflage.js",
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/data4040/Encryption.git"
+  },
+  "keywords": [ "encryption", "email-encryption", "cipher", "cipheriv" ],
+  "author": "data4040",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/data4040/Encryption/issues"
+  },
+  "homepage": "https://github.com/data4040/Encryption#readme"
+}
