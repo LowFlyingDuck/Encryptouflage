@@ -26,5 +26,4 @@ function decrypt({ instream, outstream, key, algorithm = 'aes-256-ctr', lettered
       .pipe(outstream);
   }
 }
-// encrypt({ instream: fs.createReadStream('./test.txt'), outstream: fs.createWriteStream('./test.encr'), key: 'mysecretkey', lettered: true });
-// decrypt({ instream: fs.createReadStream('./test.encr'), outstream: fs.createWriteStream('./test.decr'), lettered: true, key: 'mysecretkey' });
+module.exports = { encrypt: encrypt, decrypt: decrypt };
