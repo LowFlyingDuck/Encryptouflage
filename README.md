@@ -9,5 +9,7 @@
  - AES-256-CFB1
  - AES-256-CFB8
  - AES-256-CTR
+ - AES-256-GCM
+ - AES-256-CCM
  
  and digests the output in a chosen encoding. By default, the encrypted message is output in words format, camouflaging the message to automated email filters.
