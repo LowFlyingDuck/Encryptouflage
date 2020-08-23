@@ -1,5 +1,5 @@
 # Encryption
-This is a module, that can encrypt and decrypt messsages. (API Integration)
+This is a module, that can encrypt and decrypt messsages.
 
 ## About
 With this module you can encrypt and decrypt any text message. This might be useful for encrypting Emails or Files in order to prevent third parties from monitoring the matter.
