@@ -1,6 +1,6 @@
 {
-  "name": "Encryption",
-  "version": "1.0.0",
+  "name": "encryptouflage",
+  "version": "1.0.3",
   "description": "This is a module, that can encrypt and decrypt messsages. (API Integration)",
   "main": "encryptouflage.js",
   "repository": {
