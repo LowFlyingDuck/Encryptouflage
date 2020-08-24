@@ -117,5 +117,5 @@ var iv = Buffer.from('qLhMmT0icQrCyTcyWaeT7g==', 'base64');
 
 encryptouflage.decrypt({ instream: input, outstream: output, key: key, lettered: false, iv: iv });
 ```
-#License
+# License
 Encryptouflage is MIT licensed. You can find out more and read the license document [here](LICENSE).

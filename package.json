@@ -1,7 +1,8 @@
 {
   "name": "encryptouflage",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a module, that can encrypt and decrypt messsages. (API Integration)",
+  "readme": "README-NPM.md",
   "main": "encryptouflage.js",
   "repository": {
     "type": "git",
