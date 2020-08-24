@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/data4040/Encryption.git"
   },
-  "keywords": [ "encryption", "email-encryption", "cipher", "cipheriv" ],
+  "keywords": [ "encryption", "email-encryption", "cipher", "cipheriv", "camouflaging" ],
   "author": "data4040",
   "license": "MIT",
   "bugs": {
