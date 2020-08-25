@@ -1,4 +1,4 @@
-# Encryption
+# Encryptouflage
 This is a module, that can encrypt and decrypt messsages.
 
 ## About
