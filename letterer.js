@@ -8,11 +8,15 @@ var words = [
 function createLetterer(iv) {
   let t = new Transform({
     writableObjectMode: true,
+    transform(chunk, encoding, callback) {
+      chunk = Buffer.from([...chunk].concat())
+    },
     flush(callback) {
       callback(null, '');
     }
   });
   t.iv = undefined;
+  t.last = undefined;
   return t;
 }
 
