@@ -1,7 +1,6 @@
 const fs = require('fs');
 const { createLetterer, createDeletterer } = require('./letterer');
 const crypto = require('crypto');
-const { defaultCoreCipherList } = require('constants');
 function encrypt({ instream, outstream, key, algorithm = 'aes-256-ctr',  lettered = true, iv = crypto.randomBytes(16) }) {
   if (lettered) var d = createLetterer(iv);
   instream
