@@ -9,7 +9,8 @@ function createLetterer(iv) {
   let t = new Transform({
     writableObjectMode: true,
     transform(chunk, encoding, callback) {
-      callback(null, (iv ? iv.toString('base64') + ' ' : (iv = false, '')) + [...chunk].map(n => words[n]).join(' '));
+      callback(null, (iv ? iv.toString('base64') + ' ' : '') + [...chunk].map(n => words[n]).join(' '));
+      if (iv) iv = false;
     },
     flush(callback) {
       callback(null, '');
